@@ -14,15 +14,17 @@ contact INT(10) NOT NULL, residence VARCHAR(255) NOT NULL, Address VARCHAR(255) 
 
 CREATE TABLE users(user_id INT(100) NOT NULL PRIMARY KEY,username VARCHAR(255) NOT NULL,password VARCHAR(255) NOT NULL);
 
-3. Then click on "create new account" link from the login page to have an account.
+3.Now open the student_Info_System.jar file.
 
-4. Go back to the login page and enter credentials to log into the app.
+4. Then click on "create new account" link from the login page to have an account.
 
-5. Click on "Add new student account" from the homepage to open interface for student details. Add a student.
+5. Go back to the login page and enter credentials to log into the app.
 
-6. Select back from the page to return to "home" and select "Display student information" to open next page.
+6. Click on "Add new student account" from the homepage to open interface for student details. Add a student.
 
-7. Type the unique id of the student added and tap search button to display info. 
+7. Select back from the page to return to "home" and select "Display student information" to open next page.
+
+8. Type the unique id of the student added and tap search button to display info. 
 NB: The unique ID of students not in the database will display nothing. 
 
 You can log out by going to the homepage.
