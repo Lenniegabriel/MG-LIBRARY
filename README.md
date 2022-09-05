@@ -22,7 +22,7 @@ CREATE TABLE users(user_id INT(100) NOT NULL PRIMARY KEY,username VARCHAR(255) N
 
 6. Select back from the page to return to "home" and select "Display student information" to open next page.
 
-7. Type an integer say (1,2,3) according to the number of students added and tap search button to display info. 
-NB: Number Exceeding the number of students in the database will display nothing. 
+7. Type the unique id of the student added and tap search button to display info. 
+NB: The unique ID of students not in the database will display nothing. 
 
 You can log out by going to the homepage.
