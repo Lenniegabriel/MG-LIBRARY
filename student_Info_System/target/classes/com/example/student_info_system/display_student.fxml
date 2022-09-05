@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.student_info_system.DisplayStudent">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/DisplayStu.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtSearchBox" layoutX="29.0" layoutY="90.0" promptText="Enter user ID " />
+      <Button fx:id="btn_search" layoutX="189.0" layoutY="90.0" mnemonicParsing="false" onAction="#search" style="-fx-background-color: #2A3B30; -fx-background-radius: 15;" text="Search" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtSName" layoutX="127.0" layoutY="146.0" prefHeight="25.0" prefWidth="252.0" />
+      <Label layoutX="21.0" layoutY="150.0" prefHeight="17.0" prefWidth="96.0" text="Student Name" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtDob" layoutX="127.0" layoutY="192.0" prefHeight="25.0" prefWidth="138.0" />
+      <Label layoutX="21.0" layoutY="195.0" prefHeight="17.0" prefWidth="96.0" text="Date of Birth" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtGender" layoutX="127.0" layoutY="236.0" prefHeight="25.0" prefWidth="70.0" />
+      <TextField fx:id="txtGuardian" layoutX="131.0" layoutY="287.0" prefHeight="25.0" prefWidth="252.0" />
+      <TextField fx:id="txtContact" layoutX="131.0" layoutY="342.0" prefHeight="25.0" prefWidth="175.0" />
+      <Label layoutX="21.0" layoutY="239.0" prefHeight="17.0" prefWidth="96.0" text="Gender" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="290.0" prefHeight="17.0" prefWidth="96.0" text="Guardian" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="345.0" prefHeight="17.0" prefWidth="96.0" text="Contact" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="389.0" prefHeight="17.0" prefWidth="96.0" text="Residence" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtResidence" layoutX="129.0" layoutY="387.0" prefHeight="25.0" prefWidth="175.0" />
+      <Label layoutX="21.0" layoutY="441.0" prefHeight="17.0" prefWidth="96.0" text="Address" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtAddress" layoutX="131.0" layoutY="439.0" prefHeight="25.0" prefWidth="175.0" />
+      <Button fx:id="btn_exit" layoutX="325.0" layoutY="554.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="29.0" layoutY="72.0" opacity="0.24" text="Eg. SS/000" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="8.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
